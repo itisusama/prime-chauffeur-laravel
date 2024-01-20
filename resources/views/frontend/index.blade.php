@@ -6,13 +6,13 @@
     <title>Prime-chauffeur</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/bootstrap/css/bootstrap.min.css') }}">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
     <!-- Owl css -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/owl.carousel.min.css') }}">
 </head>
 <body>
     <!-- START:: Navbar -->
@@ -841,14 +841,14 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('frontend/assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <!-- Custom JS -->
-    <script src="assets/purecounter/purecounter_vanilla.js"></script>
+    <script src="{{ asset('frontend/assets/purecounter/purecounter_vanilla.js') }}"></script>
 
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/jquery-1.12.1.min.js"></script>
-    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="{{ asset('frontend/assets/js/script.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/jquery-1.12.1.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/jquery-3.3.1.slim.min.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/owl.carousel.min.js') }}"></script>
     <!-- Odometer JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
     <script>
