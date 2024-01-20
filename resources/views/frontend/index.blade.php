@@ -108,7 +108,7 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-up" data-aos-delay="1000">
-            <img class="card-img-top" src="assets/images/cars/car1.png" alt="Card image" style="width:100%;">
+            <img class="card-img-top" src="{{asset('frontend/assets/images/cars/car1.png')}}" alt="Card image" style="width:100%;">
             <!-- Price -->
             <div class="pc-carPriceBadge px-3 py-2"><span>From £200</span></div>
             <!-- Price -->
@@ -130,7 +130,7 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-down" data-aos-delay="1000">
-            <img class="card-img-top" src="assets/images/cars/car2.png" alt="Card image" style="width:100%;">
+            <img class="card-img-top" src="{{asset('frontend/assets/images/cars/car2.png')}}" alt="Card image" style="width:100%;">
             <!-- Price -->
             <div class="pc-carPriceBadge px-3 py-2"><span>From £200</span></div>
             <!-- Price -->
@@ -152,7 +152,7 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-up" data-aos-delay="1000">
-            <img class="card-img-top" src="assets/images/cars/car3.png" alt="Card image" style="width:100%;">
+            <img class="card-img-top" src="{{asset('frontend/assets/images/cars/car3.png')}}" alt="Card image" style="width:100%;">
             <!-- Price -->
             <div class="pc-carPriceBadge px-3 py-2"><span>From £200</span></div>
             <!-- Price -->
@@ -174,7 +174,7 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-down" data-aos-delay="1000">
-            <img class="card-img-top" src="assets/images/cars/car1.png" alt="Card image" style="width:100%;">
+            <img class="card-img-top" src="{{asset('frontend/assets/images/cars/car1.png')}}" alt="Card image" style="width:100%;">
             <!-- Price -->
             <div class="pc-carPriceBadge px-3 py-2"><span>From £200</span></div>
             <!-- Price -->
@@ -235,7 +235,7 @@
           <!-- 2 -->
           <div class="col-lg-6 mt-3" data-aos="fade-left" data-aos-delay="1000">
             <div>
-              <img src="assets/images/cars/img-location-map.png" alt="map" class="img-fluid">
+              <img src="{{asset('frontend/assets/images/cars/img-location-map.png')}}" alt="map" class="img-fluid">
               <!-- Numbers -->
               <div class="pc-bannerNumbers">
                 <!-- 1 -->
@@ -354,75 +354,7 @@
   </section>
     <!-- END:: Service -->
 
-    <!-- START:: Why Us -->
-    <section id="why-us">
-      <div class="container" data-aos="fade-up">
-        <header class="section-header">
-          <h3>Why choose us?</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
-        </header>
-
-        <div class="row row-eq-height justify-content-center">
-
-          <div class="col-lg-4 mb-4">
-            <div class="card" data-aos="zoom-in" data-aos-delay="100">
-              <i class="bi bi-calendar4-week"></i>
-              <div class="card-body">
-                <h5 class="card-title">Corporis dolorem</h5>
-                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-4">
-            <div class="card" data-aos="zoom-in" data-aos-delay="200">
-              <i class="bi bi-camera-reels"></i>
-              <div class="card-body">
-                <h5 class="card-title">Voluptates dolores</h5>
-                <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-4">
-            <div class="card" data-aos="zoom-in" data-aos-delay="300">
-              <i class="bi bi-chat-square-text"></i>
-              <div class="card-body">
-                <h5 class="card-title">Eum ut aspernatur</h5>
-                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row counters" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Clients</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    <!-- END:: Why Us -->
+    @include('frontend.components.whyus')
     
     <!-- START:: Benam Section -->
     <section class="pc-benaam bg-light p-4">
@@ -577,24 +509,7 @@
       
     </section>
     <!-- END:: Testimonials -->
-    
-    <!-- START:: News Letter -->
-    <div class="p-5 bg-light">
-      <h3 class="text-center">Subscribe to News Letter</h3>
-        <form action="#" method="post">
-          <div class="mb-3 mt-4">
-            <div class="pc-newsletter" >
-              <div>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
-              </div>
-              <div class="pc-newsletter-btn">
-                <button class="btn">Subscribe</button>
-              </div>
-            </div>
-          </div>
-        </form>
-    </div>
-    <!-- END:: News Letter -->
+    @include('frontend.components.newsletter')
 @endsection
 @section('custom-js')
 <script>
