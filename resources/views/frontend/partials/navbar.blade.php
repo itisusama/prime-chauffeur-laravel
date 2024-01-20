@@ -9,7 +9,7 @@
           <!-- Items -->
           <div class="pc-navbar-list">
               <ul class="list-unstyled d-flex gap-1 align-items-center">
-                  <li><b><a href="index.html">Home</a></b></li>
+                  <li><b><a href="{{ route('home') }}">Home</a></b></li>
                   <li>
                       <div class="dropdown">
                           <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,7 +46,7 @@
                       </div>
                   </li>
                   <li><a href="contact.html" style="margin-right: 10px;">Contact</a></li>
-                  <li><a href="about.html" style="margin-right: 10px;">About</a></li>
+                  <li><a href="{{ route('about') }}" style="margin-right: 10px;">About</a></li>
                   <li><button type="button" class="pc-navbar-booknow px-3" onclick="window.location.href='cars.html'">Book Now</button></li>
               </ul>
           </div>
@@ -60,7 +60,7 @@
 
     <div class="container pc-mobile-list">
         <ul class="list-unstyled">
-          <li><b><a class="btn" href="index.html">Home</a></b></li>
+          <li><b><a class="btn" href="{{ route('home') }}">Home</a></b></li>
           <li>
               <div class="dropdown">
                   <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -97,7 +97,7 @@
               </div>
           </li>
           <li><a class="btn" href="contact.html" style="margin-right: 10px;">Contact</a></li>
-          <li><a class="btn" href="about.html" style="margin-right: 10px;">About</a></li>
+          <li><a class="btn" href="{{ route('home') }}" style="margin-right: 10px;">About</a></li>
           <li><button type="button" class="pc-navbar-booknow px-3" onclick="window.location.href='cars.html'">Book Now</button></li>
       </ul>
     </div>
