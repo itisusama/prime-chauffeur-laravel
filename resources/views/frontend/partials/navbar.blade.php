@@ -45,7 +45,7 @@
                           </ul>
                       </div>
                   </li>
-                  <li><a href="contact.html" style="margin-right: 10px;">Contact</a></li>
+                  <li><a href="{{ route('contact') }}" style="margin-right: 10px;">Contact</a></li>
                   <li><a href="{{ route('about') }}" style="margin-right: 10px;">About</a></li>
                   <li><button type="button" class="pc-navbar-booknow px-3" onclick="window.location.href='cars.html'">Book Now</button></li>
               </ul>
@@ -96,7 +96,7 @@
                   </ul>
               </div>
           </li>
-          <li><a class="btn" href="contact.html" style="margin-right: 10px;">Contact</a></li>
+          <li><a class="btn" href="{{ route('contact') }}" style="margin-right: 10px;">Contact</a></li>
           <li><a class="btn" href="{{ route('home') }}" style="margin-right: 10px;">About</a></li>
           <li><button type="button" class="pc-navbar-booknow px-3" onclick="window.location.href='cars.html'">Book Now</button></li>
       </ul>
