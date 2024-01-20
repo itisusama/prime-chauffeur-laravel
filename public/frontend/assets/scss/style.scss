@@ -28,6 +28,10 @@ div[data-aos="zoom-in"][data-aos-delay="800"]{
 .dropdown li a{
   color: black;
 }
+
+.carousel-inner h5{
+  color: $dark-textColor !important;
+}
 .card{
   background-color: $green;
 }
