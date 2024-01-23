@@ -80,7 +80,7 @@
                             <li><a class="dropdown-item" href="{{ route('airport') }}">Airport Transfers</a></li>
                             <li><a class="dropdown-item" href="{{ route('wedding') }}">Wedding</a></li>
                             <li><a class="dropdown-item" href="{{ route('events') }}">Events</a></li>
-                            <li><a class="dropdown-item" href="{{ route('businness') }}">Business</a></li>
+                            <li><a class="dropdown-item" href="{{ route('business') }}">Business</a></li>
                             <li><a class="dropdown-item" href="{{ route('tours') }}">Tours</a></li>
                           </ul>
                       </div>
