@@ -41,6 +41,12 @@ div[data-aos=zoom-in][data-aos-delay="800"] {
   border-radius: 10px;
 }
 
+.pc-navbar {
+  position: fixed;
+  top: 0;
+  z-index: 95;
+}
+
 .pc-navbar a {
   text-decoration: none;
 }
@@ -140,6 +146,7 @@ div[data-aos=zoom-in][data-aos-delay="800"] {
   }
 }
 .pc-hero {
+  margin-top: 60px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/frontend/assets/images/1600x800/img-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -358,11 +365,12 @@ select:focus {
   }
 }
 .pc-contact-banner {
+  margin-top: 60px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/frontend/assets/images/1600x800/img-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 42vh;
+  height: 45vh;
 }
 
 .pc-contactus-btn {
@@ -425,6 +433,11 @@ select:focus {
   color: #dc3545;
 }
 
+@media (max-width: 768px) {
+  .pc-contact-banner {
+    height: 52vh;
+  }
+}
 @media (max-width: 491px) {
   .pc-newsletter input {
     width: 80vw;
@@ -435,8 +448,10 @@ select:focus {
     gap: 0.5rem;
     justify-content: center;
   }
+}
+@media (max-width: 424px) {
   .pc-contact-banner {
-    height: 52vh;
+    height: 58vh;
   }
 }
 .testimonial-slider {

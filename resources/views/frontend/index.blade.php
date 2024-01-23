@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 @section('prime-chauffeur-content')
  <!-- START:: Hero -->
- <section class="pc-hero">
+    <section class="pc-hero">
       <div class="container">
         <div class="row">
           <!-- Heading -->
