@@ -29,7 +29,7 @@ div[data-aos=zoom-in][data-aos-delay="800"] {
   color: black;
 }
 
-.carousel-inner h5, .owl-carousel .item h5 {
+.carousel-inner h5, .owl-carousel .item h5, .form-check label {
   color: #fff !important;
 }
 

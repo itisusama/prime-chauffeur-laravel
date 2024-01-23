@@ -38,12 +38,7 @@
               <div class="mb-3">
                 <label for="date" class="form-label">Pickup Date</label>
                 <div class="input-group date" id="datepicker">
-                  <input type="text" class="form-control" id="date" placeholder="Select The Start Date"/>
-                  <span class="input-group-append">
-                    <span class="input-group-text bg-light d-block">
-                      <i class="fa-solid fa-calendar-days"></i>
-                    </span>
-                  </span>
+                  <input type="date" class="form-control" id="date"/>
                 </div>
               </div>
               <!-- Timings -->
@@ -90,12 +85,7 @@
             <div class="mb-3">
               <label for="date" class="form-label">Drop off Date</label>
               <div class="input-group date" id="datepicker2">
-                <input type="text" class="form-control" id="date2" placeholder="Select The Start Date"/>
-                <span class="input-group-append">
-                  <span class="input-group-text bg-light d-block">
-                    <i class="fa-solid fa-calendar-days"></i>
-                  </span>
-                </span>
+                <input type="date" class="form-control" id="date2"/>
               </div>
             </div>
             <!-- Passangers -->
@@ -138,13 +128,13 @@
         <div class="col-md-6 p-3 mb-3">
             <div class="pc-payment-card bg-light py-3">
               <!-- Image -->
-              <div class="p-4 d-flex justify-content-center"><img src="assets/images/cars/car3.png" class="img-fluid w-50" alt="car"></div>
+              <div class="p-4 d-flex justify-content-center"><img src="{{asset('frontend/assets/images/cars/car3.png')}}" class="img-fluid w-50" alt="car"></div>
               <!-- Name -->
               <div><h3 class="text-center">Car Name</h3></div>
               <!-- Boxes -->
               <div class="row px-4">
-                  <div class="col-md-6 border p-2">Price: <span class="text-red"><b>£200</b> /Hour</span></div>
-                  <div class="col-md-6 border p-2">Price: <span class="text-red"><b>£200</b> /Day</span></div>
+                  <div class="col-md-6 border p-2 text-white">Price: <span class="text-red"><b>£200</b> /Hour</span></div>
+                  <div class="col-md-6 border p-2 text-white">Price: <span class="text-red"><b>£200</b> /Day</span></div>
               </div>
               <!-- Hire Button -->
               <div class="pc-newsletter-btn mt-4 mx-auto">
@@ -182,10 +172,10 @@
                 Direct Bank Transfer
               </label>
             </div>
-            <div><img src="assets/images/cars/payment.png" alt="Payment"></div>
+            <div><img src="{{asset('frontend/assets/images/cars/payment.png')}}" alt="Payment"></div>
             <!-- Hire Button -->
             <div class="pc-newsletter-btn mt-4">
-              <button class="btn px-5" onclick="window.location.href='booking.html'">Book Now</button>
+              <button class="btn px-5" onclick="window.location.href='booking.html'">Pay Now</button>
             </div>
             <!-- END -->
           </div>
@@ -196,20 +186,7 @@
     <!-- END:: Car Card with Payment -->
 @endsection
 @section('custom-js')
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
-<script>
-      $(document).ready(function () {
-    initializeDatePicker('#datepicker', '#date');
-    initializeDatePicker('#datepicker2', '#date2');
-    });
-
-    function initializeDatePicker(datepickerId, dateTriggerId) {
-        $(datepickerId).datepicker();
-        $(dateTriggerId).on('click', function () {
-            $(datepickerId).datepicker('show');
-        });
-    }
-    
+<script>    
     AOS.init();
-    </script>
+</script>
 @endsection
