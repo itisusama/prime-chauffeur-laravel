@@ -10,3 +10,4 @@ Route::view('/blog', 'frontend.blog')->name('blog');
 Route::view('/singleblog', 'frontend.singleblog')->name('singleblog');
 Route::view('/cars', 'frontend.cars')->name('cars');
 Route::view('/booking', 'frontend.booking')->name('booking');
+Route::view('/airport', 'frontend.airport')->name('airport');

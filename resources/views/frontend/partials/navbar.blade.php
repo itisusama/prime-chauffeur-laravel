@@ -26,11 +26,11 @@
                             Services
                           </button>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="airport.html">Airport Transfers</a></li>
-                            <li><a class="dropdown-item" href="wedding.html">Wedding</a></li>
-                            <li><a class="dropdown-item" href="events.html">Events</a></li>
-                            <li><a class="dropdown-item" href="business.html">Business</a></li>
-                            <li><a class="dropdown-item" href="tours.html">Tours</a></li>
+                            <li><a class="dropdown-item" href="{{ route('airport') }}">Airport Transfers</a></li>
+                            <li><a class="dropdown-item" href="{{ route('wedding') }}">Wedding</a></li>
+                            <li><a class="dropdown-item" href="{{ route('events') }}">Events</a></li>
+                            <li><a class="dropdown-item" href="{{ route('business') }}">Business</a></li>
+                            <li><a class="dropdown-item" href="{{ route('tours') }}">Tours</a></li>
                           </ul>
                       </div>
                   </li>
@@ -77,11 +77,11 @@
                             Services
                           </button>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="airport.html">Airport Transfers</a></li>
-                            <li><a class="dropdown-item" href="wedding.html">Wedding</a></li>
-                            <li><a class="dropdown-item" href="events.html">Events</a></li>
-                            <li><a class="dropdown-item" href="business.html">Business</a></li>
-                            <li><a class="dropdown-item" href="tours.html">Tours</a></li>
+                            <li><a class="dropdown-item" href="{{ route('airport') }}">Airport Transfers</a></li>
+                            <li><a class="dropdown-item" href="{{ route('wedding') }}">Wedding</a></li>
+                            <li><a class="dropdown-item" href="{{ route('events') }}">Events</a></li>
+                            <li><a class="dropdown-item" href="{{ route('businness') }}">Business</a></li>
+                            <li><a class="dropdown-item" href="{{ route('tours') }}">Tours</a></li>
                           </ul>
                       </div>
           </li>
