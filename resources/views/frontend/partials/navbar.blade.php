@@ -16,7 +16,7 @@
                             Cars
                           </button>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="cars.html">Our Cars</a></li>
+                            <li><a class="dropdown-item" href="{{ route('cars') }}">Our Cars</a></li>
                           </ul>
                         </div>
                   </li>
