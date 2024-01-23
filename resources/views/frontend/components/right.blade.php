@@ -23,21 +23,21 @@
         <div class="mt-3 border p-2 border">
           <h4 class="text-red">Recent Posts</h4>
           <!-- 1 -->
-          <div class="row">
+          <div class="row mb-3">
             <div class="col-4 d-flex justify-content-center align-items-center"><img src="{{asset('frontend/assets/images/900x600/1.jpg')}}" class="img-fluid" alt="post"></div>
             <div class="col-8">
               <p class="small">The title of the post goes here <br> <span class="text-red">11-January-2024</span></p>
             </div>
           </div>
           <!-- 2 -->
-          <div class="row">
+          <div class="row mb-3">
             <div class="col-4 d-flex justify-content-center align-items-center"><img src="{{asset('frontend/assets/images/900x600/2.jpg')}}" class="img-fluid" alt="post"></div>
             <div class="col-8">
               <p class="small">The title of the post goes here <br> <span class="text-red">11-January-2024</span></p>
             </div>
           </div>
           <!-- 3 -->
-          <div class="row">
+          <div class="row mb-3">
             <div class="col-4 d-flex justify-content-center align-items-center"><img src="{{asset('frontend/assets/images/900x600/3.jpg')}}" class="img-fluid" alt="post"></div>
             <div class="col-8">
               <p class="small">The title of the post goes here <br> <span class="text-red">11-January-2024</span></p>

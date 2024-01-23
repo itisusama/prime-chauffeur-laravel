@@ -174,6 +174,7 @@
       <!-- End -->
     </div>
   </section>
+  @include('frontend.components.newsletter')
 @endsection
 @section('custom-js')
     <script>

@@ -40,7 +40,7 @@
                             Blog
                           </button>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="single-blog.html">Single Blog</a></li>
+                            <li><a class="dropdown-item" href="{{ route('singleblog') }}">Single Blog</a></li>
                             <li><a class="dropdown-item" href="{{ route('blog') }}">All Blogs</a></li>
                           </ul>
                       </div>
@@ -92,7 +92,7 @@
                   </button>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="{{ route('blog') }}">All Blogs</a></li>
-                    <li><a class="dropdown-item" href="single-blog.html">Single Blog</a></li>
+                    <li><a class="dropdown-item" href="{{ route('singleblog') }}">Single Blog</a></li>
                   </ul>
               </div>
           </li>
