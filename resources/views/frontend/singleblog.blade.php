@@ -25,7 +25,7 @@
             <div class="pc-dnc d-flex gap-3">
                 <span class="d-block p-2"><small><i class="fa-solid fa-calendar-days"></i> 12-January-2024</small></span>
                 <span class="d-block p-2"><small><i class="fa-solid fa-comment"></i> 999</small></span>
-                <span class="d-block p-2"><small><i class="fa-solid fa-folder"></i> <a href="blogs.html" class="text-white" style="text-decoration: none;">Category Name</a></small></span>
+                <span class="d-block p-2"><small><i class="fa-solid fa-folder"></i> <a href="{{route('blog')}}" class="text-white" style="text-decoration: none;">Category Name</a></small></span>
             </div>
             <!-- (date posted, number of comments, category) -->
             <!-- Post -->
@@ -97,7 +97,7 @@
                 <!-- End -->
               </div>
               <!-- comments box -->
-              <div class="d-flex justify-content-center"><a href="#" class="text-red">Read More</a></div>
+              <div class="d-flex justify-content-center"><a href="{{route('blog')}}" class="text-red">Read More</a></div>
             </div>
             <!-- Comments -->
             <!-- Post Comment -->
