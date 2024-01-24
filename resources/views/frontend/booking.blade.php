@@ -129,7 +129,7 @@
               </div>
               <!-- Hire Button -->
               <div class="pc-newsletter-btn mt-4 mx-auto">
-                  <button class="btn px-5" onclick="window.location.href='booking.html'">Book Now</button>
+                  <button class="btn px-5" onclick="window.location.href='{{route('booking')}}'">Book Now</button>
               </div>
               <!-- End -->
             </div>
@@ -166,7 +166,7 @@
             <div><img src="{{asset('frontend/assets/images/cars/payment.png')}}" alt="Payment"></div>
             <!-- Hire Button -->
             <div class="pc-newsletter-btn mt-4">
-              <button class="btn px-5" onclick="window.location.href='booking.html'">Pay Now</button>
+              <button class="btn px-5" onclick="window.location.href='route('booking')'">Pay Now</button>
             </div>
             <!-- END -->
           </div>

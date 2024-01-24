@@ -15,7 +15,7 @@
           <div class="col-md-4 p-2">
               <!-- card -->
               <div class="card" data-aos="fade-up" data-aos-delay="1000">
-                <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/1.jpg')}}" alt="Card image" style="width:100%;">
+                <img onclick="window.location.href='{{route('singleblog')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/1.jpg')}}" alt="Card image" style="width:100%;">
                 <div class="card-body">
                   <h5 class="card-title">Title Goes Here</h5>
                   <div class="d-flex gap-2">
@@ -25,7 +25,7 @@
                   <p class="card-text small">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...
                     <div class="pc-newsletter-btn">
-                      <button class="btn">Read More</button>
+                      <button onclick="window.location.href='{{route('singleblog')}}'" class="btn">Read More</button>
                     </div>
                   </p>
                 </div>
@@ -35,7 +35,7 @@
           <div class="col-md-4 p-2">
             <!-- card -->
             <div class="card" data-aos="fade-down" data-aos-delay="1000">
-              <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/2.jpg')}}" alt="Card image" style="width:100%;">
+              <img onclick="window.location.href='{{route('singleblog')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/2.jpg')}}" alt="Card image" style="width:100%;">
               <div class="card-body">
                 <h5 class="card-title">Title Goes Here</h5>
                 <div class="d-flex gap-2">
@@ -45,7 +45,7 @@
                 <p class="card-text small">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...
                   <div class="pc-newsletter-btn">
-                    <button class="btn">Read More</button>
+                    <button onclick="window.location.href='{{route('singleblog')}}'" class="btn">Read More</button>
                   </div>
                 </p>
               </div>
@@ -55,7 +55,7 @@
         <div class="col-md-4 p-2">
           <!-- card -->
           <div class="card" data-aos="fade-up" data-aos-delay="1000">
-            <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/3.jpg')}}" alt="Card image" style="width:100%;">
+            <img onclick="window.location.href='{{route('singleblog')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/3.jpg')}}" alt="Card image" style="width:100%;">
             <div class="card-body">
               <h5 class="card-title">Title Goes Here</h5>
               <div class="d-flex gap-2">
@@ -65,7 +65,7 @@
               <p class="card-text small">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...
                 <div class="pc-newsletter-btn">
-                  <button class="btn">Read More</button>
+                  <button onclick="window.location.href='{{route('singleblog')}}'" class="btn">Read More</button>
                 </div>
               </p>
             </div>
@@ -79,7 +79,7 @@
           <div class="col-md-4 p-2">
               <!-- card -->
               <div class="card" data-aos="fade-down" data-aos-delay="1000">
-                <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/4.jpg')}}" alt="Card image" style="width:100%;">
+                <img onclick="window.location.href='{{route('singleblog')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/4.jpg')}}" alt="Card image" style="width:100%;">
                 <div class="card-body">
                   <h5 class="card-title">Title Goes Here</h5>
                   <div class="d-flex gap-2">
@@ -89,7 +89,7 @@
                   <p class="card-text small">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...
                     <div class="pc-newsletter-btn">
-                      <button class="btn">Read More</button>
+                      <button onclick="window.location.href='{{route('singleblog')}}'" class="btn">Read More</button>
                     </div>
                   </p>
                 </div>
@@ -99,7 +99,7 @@
           <div class="col-md-4 p-2">
             <!-- card -->
             <div class="card" data-aos="fade-up" data-aos-delay="1000">
-              <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/5.jpg')}}" alt="Card image" style="width:100%;">
+              <img onclick="window.location.href='{{route('singleblog')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/5.jpg')}}" alt="Card image" style="width:100%;">
               <div class="card-body">
                 <h5 class="card-title">Title Goes Here</h5>
                 <div class="d-flex gap-2">
@@ -109,7 +109,7 @@
                 <p class="card-text small">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...
                   <div class="pc-newsletter-btn">
-                    <button class="btn">Read More</button>
+                    <button onclick="window.location.href='{{route('singleblog')}}'" class="btn">Read More</button>
                   </div>
                 </p>
               </div>
@@ -119,7 +119,7 @@
         <div class="col-md-4 p-2">
           <!-- card -->
           <div class="card" data-aos="fade-down" data-aos-delay="1000">
-            <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/6.jpg')}}" alt="Card image" style="width:100%;">
+            <img onclick="window.location.href='{{route('singleblog')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/6.jpg')}}" alt="Card image" style="width:100%;">
             <div class="card-body">
               <h5 class="card-title">Title Goes Here</h5>
               <div class="d-flex gap-2">
@@ -129,7 +129,7 @@
               <p class="card-text small">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!...
                 <div class="pc-newsletter-btn">
-                  <button class="btn">Read More</button>
+                  <button onclick="window.location.href='{{route('singleblog')}}'" class="btn">Read More</button>
                 </div>
               </p>
             </div>
