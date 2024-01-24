@@ -83,7 +83,7 @@
                     <!-- Row -->
                   </div>
                   <!-- Date and Time -->
-                  <div class="pc-hero-submit-btn d-flex justify-content-center" style="cursor: pointer;" onclick="window.location.href='booking.html'"><button class="btn"> Book Now -> </button></div>
+                  <div class="pc-hero-submit-btn d-flex justify-content-center" style="cursor: pointer;" onclick="window.location.href='{{route('booking')}}'"><button class="btn" onclick="window.location.href='{{route('booking')}}'"> Book Now -> </button></div>
                 </form>         
               </section>
               <!-- END -->
@@ -120,7 +120,7 @@
                 <span class="d-block"><i class="fa-solid fa-check"></i> 2 Bags </span>
               </p>
               <div class="pc-newsletter-btn mt-4 mx-auto">
-                <button class="btn" onclick="window.location.href='cars.html'">Book Now</button>
+                <button class="btn" onclick="window.location.href='{{route('cars')}}'">Book Now</button>
               </div>
             </div>
           </div>
@@ -142,7 +142,7 @@
                 <span class="d-block"><i class="fa-solid fa-check"></i> 2 Bags </span>
               </p>
               <div class="pc-newsletter-btn mt-4 mx-auto">
-                <button class="btn" onclick="window.location.href='cars.html'">Book Now</button>
+                <button class="btn" onclick="window.location.href='{{route('cars')}}'">Book Now</button>
               </div>
             </div>
           </div>
@@ -164,7 +164,7 @@
                 <span class="d-block"><i class="fa-solid fa-check"></i> 2 Bags </span>
               </p>
               <div class="pc-newsletter-btn mt-4 mx-auto">
-                <button class="btn" onclick="window.location.href='cars.html'">Book Now</button>
+                <button class="btn" onclick="window.location.href='{{route('cars')}}'">Book Now</button>
               </div>
             </div>
           </div>
@@ -186,7 +186,7 @@
                 <span class="d-block"><i class="fa-solid fa-check"></i> 2 Bags </span>
               </p>
               <div class="pc-newsletter-btn mt-4 mx-auto">
-                <button class="btn" onclick="window.location.href='cars.html'">Book Now</button>
+                <button class="btn" onclick="window.location.href='{{route('cars')}}'">Book Now</button>
               </div>
             </div>
           </div>
@@ -209,11 +209,11 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-up" data-aos-delay="1000">
-            <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/1.jpg')}}" alt="Card image" style="width:100%;">
+            <img onclick="window.location.href='{{route('airport')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/1.jpg')}}" alt="Card image" style="width:100%;">
             <div class="card-body">
               <h5 class="card-title">Airport Transfer</h5>
               <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="airport.html" class="text-red">Read More</a>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="{{route('airport')}}" class="text-red">Read More</a>
               </p>
             </div>
           </div>
@@ -223,11 +223,11 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-down" data-aos-delay="1000">
-            <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/2.jpg')}}" alt="Card image" style="width:100%;">
+            <img onclick="window.location.href='{{route('wedding')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/2.jpg')}}" alt="Card image" style="width:100%;">
             <div class="card-body">
               <h5 class="card-title">Wedding</h5>
               <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="wedding.html" class="text-red">Read More</a>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="{{route('wedding')}}" class="text-red">Read More</a>
               </p>
             </div>
           </div>
@@ -237,11 +237,11 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-up" data-aos-delay="1000">
-            <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/3.jpg')}}" alt="Card image" style="width:100%;">
+            <img onclick="window.location.href='{{route('events')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/3.jpg')}}" alt="Card image" style="width:100%;">
             <div class="card-body">
               <h5 class="card-title">Events</h5>
               <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="events.html" class="text-red">Read More</a>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="{{route('events')}}" class="text-red">Read More</a>
               </p>
             </div>
           </div>
@@ -251,11 +251,11 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-down" data-aos-delay="1000">
-            <img onclick="window.location.href='business.html'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/4.jpg')}}" alt="Card image" style="width:100%;">
+            <img onclick="window.location.href='{{route('business')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/4.jpg')}}" alt="Card image" style="width:100%;">
             <div class="card-body">
               <h5 class="card-title">Business</h5>
               <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="business.html" class="text-red">Read More</a>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="{{route('business')}}" class="text-red">Read More</a>
               </p>
             </div>
           </div>
@@ -265,11 +265,11 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-up" data-aos-delay="1000">
-            <img class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/5.jpg')}}" alt="Card image" style="width:100%;">
+            <img onclick="window.location.href='{{route('cars')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/5.jpg')}}" alt="Card image" style="width:100%;">
             <div class="card-body">
               <h5 class="card-title">Tours</h5>
               <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="tours.html" class="text-red">Read More</a>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis recusandae sint similique!... <a href="{{route('tours')}}" class="text-red">Read More</a>
               </p>
             </div>
           </div>
