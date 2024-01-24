@@ -103,7 +103,7 @@ div[data-aos=zoom-in][data-aos-delay="800"] {
   display: none;
 }
 
-@media (max-width: 778px) {
+@media (max-width: 840px) {
   .pc-navbar-mobile-toggle {
     display: block;
   }
@@ -655,7 +655,7 @@ select:focus {
 }
 
 #about .about-container .icon-box .title a {
-  color: #fff;
+  color: #f51527;
 }
 
 #about .about-container .icon-box .description {
@@ -843,24 +843,15 @@ button {
   width: 100%;
 }
 
-.cta-green {
-  background: #00ffad;
-  color: #192440;
-}
-
-.cta-green:hover {
-  color: #4b4b4b;
-  background: #00e69c;
-}
-
 .cta-blue {
-  background: #192440;
-  color: #4b4b4b;
+  background: #198754;
+  color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .cta-blue:hover {
-  color: #4b4b4b;
-  background: #121a2e;
+  border: 1px solid #198754;
+  color: #198754;
 }
 
 .cta-ghost {

@@ -105,7 +105,7 @@
   }
   
   #about .about-container .icon-box .title a {
-    color: $dark-textColor;
+    color: $red;
   }
   
   #about .about-container .icon-box .description {
@@ -294,24 +294,15 @@
     width: 100%;
   }
   
-  .cta-green {
-    background: #00ffad;
-    color: $darkBlue;
-  }
-  
-  .cta-green:hover {
-    color: $darkBackground;
-    background: #00e69c;
-  }
-  
   .cta-blue {
-    background: $darkBlue;
-    color: $darkBackground;
+    background: $green;
+    color: $white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   }
   
   .cta-blue:hover {
-    color: $darkBackground;
-    background: #121a2e;
+    border: 1px solid $green;
+    color: $green;
   }
   
   .cta-ghost {

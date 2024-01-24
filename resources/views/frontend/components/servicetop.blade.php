@@ -8,7 +8,7 @@
                 <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Learn More</a>
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
-                <img src="{{asset('frontend/assets/images/cars/car1.png')}}" alt="Take a look inside" class="mx-auto d-block">
+                <img src="{{asset('frontend/assets/images/cars/car2.png')}}" alt="Take a look inside" class="mx-auto d-block">
             </div>
         </div>
     </div>
