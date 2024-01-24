@@ -3,8 +3,8 @@
       <nav class="pc-desktop-navbar bg-body-tertiary px-5 py-2 d-flex justify-content-between">
           <!-- LOGO and Name -->
           <div class="pc-navbar-mobile-logo">
-              <div class="pc-navbar-logo p-2"><i class="fa-solid fa-car"></i></div>
-              <div class="pc-navbar-name"><h5>Prime Chauffeur</h5></div>
+              <div class="pc-navbar-logo p-2" onclick="window.location.href='{{route('home')}}'"><i class="fa-solid fa-car"></i></div>
+              <div class="pc-navbar-name" onclick="window.location.href='{{route('home')}}'"><h5>Prime Chauffeur</h5></div>
           </div>
           <!-- Items -->
           <div class="pc-navbar-list">

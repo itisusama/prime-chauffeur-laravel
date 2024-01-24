@@ -120,7 +120,7 @@ div[data-aos=zoom-in][data-aos-delay="800"] {
   .pc-mobile-navbar {
     width: 50%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -100%;
     box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
