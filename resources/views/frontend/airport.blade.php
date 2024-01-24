@@ -29,19 +29,19 @@
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="800">
               <div class="icon"><img src="{{asset('frontend/assets/images/svg/card-checklist.svg')}}" alt="icon"></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <h4 class="title"><a href="{{route('about')}}">Eiusmod Tempor</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="800">
               <div class="icon"><img src="{{asset('frontend/assets/images/svg/brightness-high-fill.svg')}}" alt="icon"></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <h4 class="title"><a href="{{route('about')}}">Magni Dolores</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="800">
               <div class="icon"><img src="{{asset('frontend/assets/images/svg/calendar4-week.svg')}}" alt="icon"></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <h4 class="title"><a href="{{route('about')}}">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
 
