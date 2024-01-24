@@ -7,7 +7,7 @@
         </div>
         <!-- Bread Crumb -->
         <div>
-            <p class="text-white"><a href="{{ route('home') }}">Home</a> > {{ $breadcrumb }}</p>
+            <p class="text-white"><a href="{{ route('home') }}">Home</a> @if(isset($showCarsBreadcrumb) && $showCarsBreadcrumb) > <a href="{{ route('cars') }}">cars</a> @endif > {{ $breadcrumb }}</p>
         </div>
         <!-- Bread Crumb -->
         <!-- Call Us Button -->

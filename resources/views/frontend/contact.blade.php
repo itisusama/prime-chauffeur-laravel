@@ -6,6 +6,7 @@
     'breadcrumb' => 'Contact',
     'contactNumber' => '+447883846758',
     'callUsButtonText' => 'Call Us',
+    'showCarsBreadcrumb' => false,
 ])
     <!-- START:: Image with contact Info -->
     <section class="container mt-4">

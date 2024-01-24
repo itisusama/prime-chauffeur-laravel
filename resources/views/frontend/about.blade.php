@@ -4,6 +4,7 @@
     'pageTitle' => 'About Us',
     'bannerText' => 'Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.',
     'breadcrumb' => 'About',
+    'showCarsBreadcrumb' => false,
 ])
 
     <!-- START:: image and info -->
