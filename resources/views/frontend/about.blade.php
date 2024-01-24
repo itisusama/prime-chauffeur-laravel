@@ -1,20 +1,10 @@
 @extends('frontend.layouts.master')
 @section('prime-chauffeur-content')
-    <!-- START:: Banner -->
-    <section class="pc-contact-banner py-3">
-        <div class="container mt-3" data-aos="fade-right" data-aos-delay="1000">
-            <h1 class="text-red">About Us</h1>
-            <div class="text-white w-50">
-                <p>Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.</p>
-            </div>
-            <!-- Bread Crumb -->
-            <div>
-              <p class="text-white"><a href="{{ route('home') }}">Home</a> > About</p>
-            </div>
-            <!-- Bread Crumb -->
-        </div>
-    </section>
-    <!-- END:: Banner -->
+@include('frontend.components.banner', [
+    'pageTitle' => 'About Us',
+    'bannerText' => 'Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.',
+    'breadcrumb' => 'About',
+])
 
     <!-- START:: image and info -->
     <section class="container mt-4 mb-4">

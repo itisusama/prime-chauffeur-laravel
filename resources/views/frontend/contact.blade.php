@@ -1,24 +1,12 @@
 @extends('frontend.layouts.master')
 @section('prime-chauffeur-content')
-<!-- START:: Banner -->
-<section class="pc-contact-banner py-3">
-        <div class="container mt-3" data-aos="fade-right" data-aos-delay="1000">
-            <h1 class="text-red">Contact Us</h1>
-            <div class="text-white w-50">
-                <p>Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.</p>
-            </div>
-            <!-- Bread Crumb -->
-            <div>
-              <p class="text-white"><a href="index.html">Home</a> > Contact</p>
-            </div>
-            <!-- Bread Crumb -->
-            <!-- Call Us Button -->
-            <div class="pc-contactus-btn px-4"><a href="tel:+447883846758" class="btn text-white">Call Us</a></div>
-            <!-- Call Us Button -->
-        </div>
-    </section>
-    <!-- END:: Banner -->
-
+@include('frontend.components.banner', [
+    'pageTitle' => 'Contact Us',
+    'bannerText' => 'Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.',
+    'breadcrumb' => 'Contact',
+    'contactNumber' => '+447883846758',
+    'callUsButtonText' => 'Call Us',
+])
     <!-- START:: Image with contact Info -->
     <section class="container mt-4">
       <div class="row">
