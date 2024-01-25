@@ -27,7 +27,7 @@
                             <div class="col-md-6 border p-2">Price: <span class="text-red"><b>£200</b> /Day</span></div>
                         </div>
                         <!-- Hire Button -->
-                        <div class="pc-newsletter-btn mt-4 mx-auto">
+                        <div class="pc-newsletter-btn my-4 mx-auto">
                             <button class="btn px-5" onclick="window.location.href='{{route('booking')}}'">Book Now</button>
                         </div>
                         <!-- End -->
@@ -44,7 +44,7 @@
                           <div class="col-md-6 border p-2">Price: <span class="text-red"><b>£200</b> /Day</span></div>
                       </div>
                       <!-- Hire Button -->
-                      <div class="pc-newsletter-btn mt-4 mx-auto">
+                      <div class="pc-newsletter-btn my-4 mx-auto">
                           <button class="btn px-5" onclick="window.location.href='{{route('booking')}}'">Book Now</button>
                       </div>
                       <!-- End -->
@@ -66,7 +66,7 @@
                           <div class="col-md-6 border p-2">Price: <span class="text-red"><b>£200</b> /Day</span></div>
                       </div>
                       <!-- Hire Button -->
-                      <div class="pc-newsletter-btn mt-4 mx-auto">
+                      <div class="pc-newsletter-btn my-4 mx-auto">
                           <button class="btn px-5" onclick="window.location.href='{{route('booking')}}'">Book Now</button>
                       </div>
                       <!-- End -->
