@@ -1,9 +1,9 @@
 @extends('frontend.layouts.master')
 @section('prime-chauffeur-content')
 @include('frontend.components.banner', [
-    'pageTitle' => 'About Us',
+    'pageTitle' => 'Events Service',
     'bannerText' => 'Incididunt ut laboret dolore magna aliqua enim minim veniam nostrud ullamco laboris nisi aliquip ex loea.',
-    'breadcrumb' => 'About',
+    'breadcrumb' => 'Events',
     'showCarsBreadcrumb' => false,
 ])
   <!-- End Hero Section -->
