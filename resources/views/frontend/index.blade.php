@@ -21,6 +21,7 @@
               <!-- 1 -->
               <section class="px-5" id="pc-oneway-form" style="display: block;">
                 <form action="#" method="post">
+                  @csrf
                   <div class="mb-3">
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Pickup Location" required>
                   </div>

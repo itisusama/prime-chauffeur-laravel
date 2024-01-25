@@ -126,6 +126,7 @@
           <h2>Send Message</h2>
           <p>Have a query? Submit Us Here.</p>
           <form action="#" method="post">
+            @csrf
             <!-- 1 -->
             <div class="row">
               <div class="col-6">

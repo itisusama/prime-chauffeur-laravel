@@ -11,6 +11,7 @@
       <h2>Book a Car</h2>
       <hr class="w-75 text-red">
       <form action="#" method="post">
+        @csrf
         <!-- Row -->
         <div class="row">
           <!-- left -->
