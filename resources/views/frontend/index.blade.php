@@ -121,7 +121,7 @@
                 <span class="d-block"><i class="fa-solid fa-check"></i> 2 Bags </span>
               </p>
               <div class="pc-newsletter-btn mt-4 mx-auto">
-                <button class="btn" onclick="window.location.href='{{route('cars')}}'">Book Now</button>
+                <button class="btn" onclick="window.location.href='{{route('fleet')}}'">Book Now</button>
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@
                 <span class="d-block"><i class="fa-solid fa-check"></i> 2 Bags </span>
               </p>
               <div class="pc-newsletter-btn mt-4 mx-auto">
-                <button class="btn" onclick="window.location.href='{{route('cars')}}'">Book Now</button>
+                <button class="btn" onclick="window.location.href='{{route('fleet')}}'">Book Now</button>
               </div>
             </div>
           </div>
@@ -165,7 +165,7 @@
                 <span class="d-block"><i class="fa-solid fa-check"></i> 2 Bags </span>
               </p>
               <div class="pc-newsletter-btn mt-4 mx-auto">
-                <button class="btn" onclick="window.location.href='{{route('cars')}}'">Book Now</button>
+                <button class="btn" onclick="window.location.href='{{route('fleet')}}'">Book Now</button>
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@
         <div class="item">
           <!-- card -->
           <div class="card" data-aos="fade-up" data-aos-delay="1000">
-            <img onclick="window.location.href='{{route('cars')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/5.jpg')}}" alt="Card image" style="width:100%;">
+            <img onclick="window.location.href='{{route('fleet')}}'" class="card-img-top img-fluid" src="{{asset('frontend/assets/images/900x600/5.jpg')}}" alt="Card image" style="width:100%;">
             <div class="card-body">
               <h5 class="card-title">Tours</h5>
               <p class="card-text">

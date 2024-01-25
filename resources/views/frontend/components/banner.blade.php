@@ -7,7 +7,7 @@
         </div>
         <!-- Bread Crumb -->
         <div class="pc-banner-breadcrumb">
-            <p class="text-white"><a href="{{ route('home') }}">Home</a> @if(isset($showCarsBreadcrumb) && $showCarsBreadcrumb) > <a href="{{ route('cars') }}">cars</a> @endif > {{ $breadcrumb }}</p>
+            <p class="text-white"><a href="{{ route('home') }}">Home</a> @if(isset($showCarsBreadcrumb) && $showCarsBreadcrumb) > <a href="{{ route('fleet') }}">cars</a> @endif > {{ $breadcrumb }}</p>
         </div>
         <!-- Bread Crumb -->
         <!-- Call Us Button -->

@@ -12,7 +12,7 @@
             <div class="card" data-aos="zoom-in" data-aos-delay="100">
               <i class="bi bi-calendar4-week"></i>
               <div class="card-body">
-                <h5 class="card-title">Corporis dolorem</h5>
+                <h5 class="card-title">Numan Shareef</h5>
                 <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
               </div>
             </div>
@@ -22,7 +22,7 @@
             <div class="card" data-aos="zoom-in" data-aos-delay="200">
               <i class="bi bi-camera-reels"></i>
               <div class="card-body">
-                <h5 class="card-title">Voluptates dolores</h5>
+                <h5 class="card-title">Tahir Khadim</h5>
                 <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
               </div>
             </div>
@@ -32,7 +32,7 @@
             <div class="card" data-aos="zoom-in" data-aos-delay="300">
               <i class="bi bi-chat-square-text"></i>
               <div class="card-body">
-                <h5 class="card-title">Eum ut aspernatur</h5>
+                <h5 class="card-title">Afnan Safder</h5>
                 <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
               </div>
             </div>
