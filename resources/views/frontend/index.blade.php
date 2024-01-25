@@ -103,7 +103,7 @@
       </div>
       <div class="container"><p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque animi quae vel doloribus magni adipisci explicabo, placeat quos quisquam a rerum alias totam suscipit ab consequatur possimus eius temporibus rem vero nisi tempore magnam voluptates? Dicta, earum.</p></div>
     
-    <div class="owl-carousel container">      
+    <div class="owl-carousel container d-flex flex-column justify-content-center align-items-center">      
         <!-- 1 -->
         <div class="item">
           <!-- card -->
@@ -158,28 +158,6 @@
             <!-- Price -->
             <div class="card-body">
               <h5 class="card-title">Mercedes E-Class</h5>
-              <hr class="w-25 text-danger">
-              <p class="card-text">
-                <span class="d-block"><i class="fa-solid fa-check"></i> 4 Passangers </span>
-                <span class="d-block"><i class="fa-solid fa-check"></i> 2 Bags </span>
-              </p>
-              <div class="pc-newsletter-btn mt-4 mx-auto">
-                <button class="btn" onclick="window.location.href='{{route('cars')}}'">Book Now</button>
-              </div>
-            </div>
-          </div>
-          <!-- card -->
-        </div>
-        <!-- 4 -->
-        <div class="item">
-          <!-- card -->
-          <div class="card" data-aos="fade-down" data-aos-delay="1000">
-            <img class="card-img-top" src="{{asset('frontend/assets/images/cars/car1.png')}}" alt="Card image" style="width:100%;">
-            <!-- Price -->
-            <div class="pc-carPriceBadge px-3 py-2"><span>From £200</span></div>
-            <!-- Price -->
-            <div class="card-body">
-              <h5 class="card-title">EQV</h5>
               <hr class="w-25 text-danger">
               <p class="card-text">
                 <span class="d-block"><i class="fa-solid fa-check"></i> 4 Passangers </span>

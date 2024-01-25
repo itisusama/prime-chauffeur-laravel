@@ -71,23 +71,6 @@
                       </div>
                       <!-- End -->
                   </div>
-                  <!-- 2 -->
-                  <div class="col-lg-6 mb-3" data-aos="zoom-in" data-aos-delay="800">
-                    <!-- Image -->
-                    <div class="p-4"><img src="{{asset('frontend/assets/images/cars/car4.png')}}" class="img-fluid w-100 shadow" alt="car"></div>
-                    <!-- Name -->
-                    <div><h3 class="text-center">EQV</h3></div>
-                    <!-- Boxes -->
-                    <div class="row px-4">
-                        <div class="col-md-6 border p-2">Price: <span class="text-red"><b>£200</b> /Hour</span></div>
-                        <div class="col-md-6 border p-2">Price: <span class="text-red"><b>£200</b> /Day</span></div>
-                    </div>
-                    <!-- Hire Button -->
-                    <div class="pc-newsletter-btn mt-4 mx-auto">
-                        <button class="btn px-5" onclick="window.location.href='{{route('booking')}}'">Book Now</button>
-                    </div>
-                    <!-- End -->
-                </div>
                   <!-- end -->
               </div>
               <!-- Two Cars -->

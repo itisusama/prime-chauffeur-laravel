@@ -10,16 +10,7 @@
           <div class="pc-navbar-list">
               <ul class="list-unstyled d-flex gap-1 align-items-center">
                   <li><b><a href="{{ route('home') }}">Home</a></b></li>
-                  <li>
-                      <div class="dropdown">
-                          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Cars
-                          </button>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{ route('cars') }}">Our Cars</a></li>
-                          </ul>
-                        </div>
-                  </li>
+                  <li><a href="{{ route('cars') }}" style="margin: 0 10px;">Cars</a></li>
                   <li>
                       <div class="dropdown">
                           <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">

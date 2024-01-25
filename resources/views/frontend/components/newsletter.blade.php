@@ -3,6 +3,7 @@
     <div class="p-5 bg-light">
       <h3 class="text-center">Subscribe to News Letter</h3>
         <form action="#" method="post">
+         @csrf
           <div class="mb-3 mt-4">
             <div class="pc-newsletter" >
               <div>
