@@ -85,7 +85,7 @@
                   </div>
                   <!-- Date and Time -->
                   <div class="pc-hero-submit-btn d-flex justify-content-center" style="cursor: pointer;" onclick="window.location.href='{{route('booking')}}'"><button class="btn" onclick="window.location.href='{{route('booking')}}'"> Book Now -> </button></div>
-                </form>         
+                </form>
               </section>
               <!-- END -->
             </div>
@@ -103,8 +103,8 @@
           <h2 class = "position-relative ms-4">Our Cars</h2>
       </div>
       <div class="container"><p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque animi quae vel doloribus magni adipisci explicabo, placeat quos quisquam a rerum alias totam suscipit ab consequatur possimus eius temporibus rem vero nisi tempore magnam voluptates? Dicta, earum.</p></div>
-    
-    <div class="owl-carousel container d-flex flex-column justify-content-center align-items-center">      
+
+    <div class="owl-carousel container d-flex flex-column justify-content-center align-items-center">
         <!-- 1 -->
         <div class="item">
           <!-- card -->
@@ -182,8 +182,8 @@
           <h2 class = "position-relative ms-4">Our Services</h2>
       </div>
       <div class="container"><p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque animi quae vel doloribus magni adipisci explicabo, placeat quos quisquam a rerum alias totam suscipit ab consequatur possimus eius temporibus rem vero nisi tempore magnam voluptates? Dicta, earum.</p></div>
-    
-    <div class="owl-carousel container">      
+
+    <div class="owl-carousel container">
         <!-- 1 -->
         <div class="item">
           <!-- card -->
@@ -260,7 +260,7 @@
     <!-- END:: Service -->
 
     @include('frontend.components.whyus')
-    
+
     <!-- START:: Benam Section -->
     <section class="pc-benaam bg-light p-4">
       <!-- LOGO and Name -->
