@@ -217,6 +217,12 @@ div[data-aos=zoom-in][data-aos-delay="800"] {
     margin-top: 225px !important;
   }
 }
+@media (max-width: 425px) {
+  .pc-hero-form {
+    position: absolute;
+    top: 260px;
+  }
+}
 @media (max-width: 320px) {
   .pc-hero-form-btns button {
     padding: 0.2rem 1rem !important;

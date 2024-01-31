@@ -45,26 +45,14 @@
   .pc-hero-form-btns button{
     padding: 0.2rem 1.4rem !important;
   }
-  // .pc-hero{
-  //   height: 52vh;
-  // }  
 
   .pc-hero{
     height: 82vh;
   }
 
-  // .pc-hero-heading{
-  //   margin-top: -7rem !important;
-  // }
-
   .pc-hero-heading{
     margin-top: -12rem !important;
   }
-
-  //  .pc-hero-form{
-  //   position: absolute;
-  //   top: 180px;
-  // }
 
   .pc-hero-form{
     position: absolute;
@@ -75,13 +63,16 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  // .pc-carCardsSlider-mobile{
-  //   margin-top: 190px !important;
-  // }
-
   .pc-carCardsSlider-mobile{
     margin-top: 225px !important;
   }
+}
+
+@media (max-width:425px){
+    .pc-hero-form{
+        position: absolute;
+        top: 260px;
+      }
 }
 
 @media (max-width: 320px){
