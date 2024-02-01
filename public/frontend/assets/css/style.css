@@ -354,6 +354,18 @@ select:focus {
   font-size: 24px;
 }
 
+.pc-owl-center {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+@media (max-width: 768px) {
+  .pc-owl-center {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+}
 @media (max-width: 700px) {
   .pc-singleBlog-image img {
     height: 40vh;

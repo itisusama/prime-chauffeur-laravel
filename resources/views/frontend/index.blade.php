@@ -104,7 +104,7 @@
       </div>
       <div class="container"><p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque animi quae vel doloribus magni adipisci explicabo, placeat quos quisquam a rerum alias totam suscipit ab consequatur possimus eius temporibus rem vero nisi tempore magnam voluptates? Dicta, earum.</p></div>
 
-    <div class="owl-carousel container d-flex flex-column justify-content-center align-items-center">
+    <div class="owl-carousel pc-owl-center container">
         <!-- 1 -->
         <div class="item">
           <!-- card -->
