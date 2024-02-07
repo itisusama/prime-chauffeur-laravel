@@ -29,8 +29,12 @@ div[data-aos=zoom-in][data-aos-delay="800"] {
   color: black;
 }
 
-.carousel-inner h5, .owl-carousel .item h5, .form-check label {
+.carousel-inner h5, .owl-carousel .item h5, .form-check label, .pc-faq-section .btn-link {
   color: #fff !important;
+}
+
+.pc-faq-section .btn-link {
+  text-decoration: none;
 }
 
 .card {
