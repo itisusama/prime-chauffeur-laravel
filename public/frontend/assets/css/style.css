@@ -471,10 +471,15 @@ select:focus {
     gap: 0.5rem;
     justify-content: center;
   }
+  .pc-newsletter-btn {
+    max-width: 491px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 }
 @media (max-width: 424px) {
   .pc-contact-banner {
-    height: 58vh;
+    height: 42vh;
   }
 }
 .testimonial-slider {
