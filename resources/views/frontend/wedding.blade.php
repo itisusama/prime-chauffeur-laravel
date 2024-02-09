@@ -6,10 +6,8 @@
     'breadcrumb' => 'Wedding',
     'showCarsBreadcrumb' => false,
 ])
-  <!-- End Hero Section -->
-<!-- ========== Start Section first  ========== -->
 @include('frontend.components.servicetop')
-<!-- feature (green background) -->
+  <!-- Start #main -->
   <main id="main">
     <!-- ======= heading Section ======= -->
     <section id="about">
@@ -93,7 +91,6 @@
     @include('frontend.components.whyus')
   </main>
   <!-- End #main -->
-  <!-- ========== End Section  first ========== -->
 @endsection
 @section('custom-js')
 <script>

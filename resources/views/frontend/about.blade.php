@@ -39,33 +39,34 @@
             </div>
                 <div class="row text-center">
                     <div class="col-md-3" data-aos="zoom-in" data-aos-delay="800">
-                    <div class="counter shadow">
-              <i class="fa fa-code fa-2xl"></i>
-              <h3 class="timer count-title count-number" data-to="100" data-speed="1500"></h3>
-               <p class="count-text ">Our Customer</p>
-            </div>
+                        <div class="counter shadow">
+                            <i class="fa fa-code fa-2xl"></i>
+                            <h3 class="timer count-title count-number" data-to="100" data-speed="1500"></h3>
+                            <p class="count-text ">Our Customer</p>
+                        </div>
                     </div>
-                      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="800">
-                       <div class="counter shadow">
-              <i class="fa fa-coffee fa-2xl"></i>
-              <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
-              <p class="count-text ">Happy Clients</p>
-            </div>
-                      </div>
-                      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="800">
-                          <div class="counter shadow">
-              <i class="fa fa-lightbulb fa-2xl"></i>
-              <h3 class="timer count-title count-number" data-to="11900" data-speed="1500"></h3>
-              <p class="count-text ">Project Complete</p>
-            </div></div>
-                      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="800">
-                      <div class="counter shadow">
-              <i class="fa fa-bug fa-2xl"></i>
-              <h3 class="timer count-title count-number" data-to="157" data-speed="1500"></h3>
-              <p class="count-text ">Coffee With Clients</p>
-            </div>
-                      </div>
-                 </div>
+                    <div class="col-md-3" data-aos="zoom-in" data-aos-delay="800">
+                        <div class="counter shadow">
+                            <i class="fa fa-coffee fa-2xl"></i>
+                            <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+                            <p class="count-text ">Happy Clients</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="zoom-in" data-aos-delay="800">
+                        <div class="counter shadow">
+                            <i class="fa fa-lightbulb fa-2xl"></i>
+                            <h3 class="timer count-title count-number" data-to="11900" data-speed="1500"></h3>
+                            <p class="count-text ">Project Complete</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="zoom-in" data-aos-delay="800">
+                        <div class="counter shadow">
+                            <i class="fa fa-bug fa-2xl"></i>
+                            <h3 class="timer count-title count-number" data-to="157" data-speed="1500"></h3>
+                            <p class="count-text ">Coffee With Clients</p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
     <!-- END:: Counter -->
