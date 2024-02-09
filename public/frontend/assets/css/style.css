@@ -585,9 +585,6 @@ select:focus {
 }
 
 /* END:: Counter */
-/*--------------------------------------------------------------
-# Sections
---------------------------------------------------------------*/
 /* Sections Header
 --------------------------------*/
 .section-header h3 {
@@ -665,7 +662,6 @@ select:focus {
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
   font-size: 24px;
   line-height: 0;
 }
@@ -745,14 +741,6 @@ select:focus {
   font-size: 18px;
 }
 
-#services .title a {
-  color: #111;
-}
-
-#services .box:hover .title a {
-  color: #007bff;
-}
-
 #services .description {
   font-size: 14px;
   margin-left: 40px;
@@ -793,7 +781,6 @@ select:focus {
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
 }
 
 #why-us .card h5 {
